@@ -7,10 +7,9 @@ Autor: Piotr Urbański
 
 ------------------------------------------------------------------------
 
-### Nota do wersji 0.2
-Niestety skrypt generujący randomowe wydarzenia ma 2 błędy, które mogą wpłynąć na jakość gry:
-1. Wartość dodawana do stanu konta co sekundę przez automatycznego dealer'a potrafi się czasem zbugować, przypisując daną wartosć na stałe, a nie tylko na czas trwania eventu
-2. Nieodblokowane poziomy również generują eventy (a nie powinny)
+### Nota do wersji 0.2.5
+Niestety skrypt generujący randomowe wydarzenia ma mały błąd (który nie powinien przeszkodzić w grze):
+1. Nieodblokowane poziomy również generują eventy (a nie powinny)
 
 Z racji deadline'u przypadającego na "środek tygodnia" projekt wrzucam w takiej wersji, do niedzieli 27.06.2021r (czyli ostatecznej daty oddania projektu wg. SKOS'a postaram się wypuścić wersję Alpha 0.3, która rozwiąże powyższe problemy.
 
@@ -35,6 +34,9 @@ Każdy kolejny poziom przynosi lepszy zarobek, a zatem w perspektywie czasu stan
 Nie może być jednak za łatwo! Od teraz na gracza czekają dodatkowe utrudnienia (a być może ułatwienia - kwestia szczęścia)
 
 Do każdego poziomu przypisane są unikatowe wydarzenia specjalne, pojawiające się w losowym momencie gry, wpływające na stan konta, wartość kliknęcia, lub wartość generowaną na sekundę. Generowane eventy mogą być pozytywne (na przykład zwiększyć stawkę za kliknęcie dwukrotnie), ale mogą być także negatywne, szansa  wynosi 50%.
+
+### Aktualizacja Alpha 0.2.5
+Rozwiązano problem bugowania się wartości "Per second", eventy nadal dziełają na nieodblokowanych poziomach.
 
 Życzę miłej gry!
 
